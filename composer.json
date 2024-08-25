@@ -1,0 +1,13 @@
+{ 
+    "name": "servals/lxd-client", 
+    "description": "A PHP client for interacting with the LXD API", 
+    "type": "library", 
+    "require": { 
+        "php": ">=7.4" 
+    }, 
+    "autoload": { 
+        "psr-4": { 
+            "Servals\\Lxd\\": "src/" 
+        } 
+    } 
+} 
